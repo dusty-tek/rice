@@ -1,3 +1,10 @@
+# set up dbus
+if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+  ## if not found, launch a new one
+  eval `dbus-launch --sh-syntax`
+  echo "D-Bus per-session daemon address is: $DBUS_SESSION_BUS_ADDRESS"
+fi
+
 # In a loop, update the timer every minute
 while true ; do xsetroot -name "`sh dwmbar.sh`" ; sleep 60 ; done &
 
@@ -8,4 +15,4 @@ xrdb -merge ~/rice/dwm.Xresources
 feh --bg-scale ~/Pictures/Backgrounds/hina.png
 
 # Start up the window manager
-exec ~/Code/Programs/dwm/dwm
+exec ~/Downloads/dwm-6.0/dwm

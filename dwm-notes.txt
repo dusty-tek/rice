@@ -13,14 +13,23 @@
 * ~/rice/dwm                      the xinit config
 * ~/rice/dwmbar.sh                script for what to put in the dwm bar
 * ~/rice/dwm.Xresources           sets urxvt colors
-* ~/.purple/gtkrc-2.0             sets pidgin colors
+* /home/yuno/.purple/gtkrc-2.0    sets pidgin colors
 
 # todo
 
 * fix pidgin frame
 * turn off focus follows mouse
-* reduce snap distance
+* [done] reduce snap distance
 * numlock when start
 * fix the mode thing when switching between workspaces
 * alerts when e.g. pidgin wants attention (bottom bar?)
 * how to kill the process behind a window (e.g. a video)
+* [done] test clementine addition
+* [done] unicode in the bar?
+
+# notes
+
+It was hard to work out how to get emblems back (they work nice in xfce but not by default when you start a wm). The advice from this thread has the invocation to get it to work:
+* https://superuser.com/questions/228261/how-to-properly-start-gvfs-without-gnome
+
+but that wans't quite right.. either. the np script failed in that situation.
