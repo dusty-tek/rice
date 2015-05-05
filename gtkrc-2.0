@@ -1,0 +1,13 @@
+style "inverted"
+{
+text[NORMAL] = "#000000"
+base[NORMAL] = "#fee0a6"
+}
+
+# Apply "inverted" to conversation entry box--where you type.
+widget "*pidgin_conv_entry" style "inverted"
+
+# Apply "inverted" to conversation history pane--where you read the conversation.
+widget "*pidgin_conv_imhtml" style "inverted"
+
+widget "*pidgin_blist_treeview" style "inverted"

@@ -1,0 +1,26 @@
+# keys
+
+* mod-p            dmenu spawn
+* mod-shift-enter  terminal
+* mod-space        toggle tiling/stacking
+
+# files
+
+* ~/Art/bg/hina.png
+* ~/Art/bg/hina_palette.txt       made a note of the HTML codes for colors
+
+* ~/Code/Programs/dwm/config.h    set up dwm colors
+* ~/rice/dwm                      the xinit config
+* ~/rice/dwmbar.sh                script for what to put in the dwm bar
+* ~/rice/dwm.Xresources           sets urxvt colors
+* ~/.purple/gtkrc-2.0             sets pidgin colors
+
+# todo
+
+* fix pidgin frame
+* turn off focus follows mouse
+* reduce snap distance
+* numlock when start
+* fix the mode thing when switching between workspaces
+* alerts when e.g. pidgin wants attention (bottom bar?)
+* how to kill the process behind a window (e.g. a video)

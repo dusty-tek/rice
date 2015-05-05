@@ -1,0 +1,11 @@
+# In a loop, update the timer every minute
+while true ; do xsetroot -name "`sh dwmbar.sh`" ; sleep 60 ; done &
+
+# Set terminal colors
+xrdb -merge ~/rice/dwm.Xresources
+
+# Set a nice background picture
+feh --bg-scale ~/Pictures/Backgrounds/hina.png
+
+# Start up the window manager
+exec ~/Code/Programs/dwm/dwm
