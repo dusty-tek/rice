@@ -4,6 +4,16 @@
 * mod-shift-enter  terminal
 * mod-space        toggle tiling/stacking
 
+* mod-<N>          view tag (workspace)
+* mod-shift-<N>    move window to tag
+* mod-tab          switch between this tag and the previous
+
+* mod-shift-c      close window
+
+* mod-click + drag                 move window
+* mod-shift-click + drag [custom]  resize window
+
+
 # files
 
 * ~/Art/bg/hina.png
@@ -15,17 +25,20 @@
 * ~/rice/dwm.Xresources           sets urxvt colors
 * /home/yuno/.purple/gtkrc-2.0    sets pidgin colors
 
+
 # todo
 
 * fix pidgin frame
-* turn off focus follows mouse
+* [done] turn off focus follows mouse
 * [done] reduce snap distance
 * numlock when start
-* fix the mode thing when switching between workspaces
+* [done] fix the mode thing when switching between workspaces
 * alerts when e.g. pidgin wants attention (bottom bar?)
-* how to kill the process behind a window (e.g. a video)
+* [done] how to kill the process behind a window (e.g. a video)
 * [done] test clementine addition
 * [done] unicode in the bar?
+* if you select a lower window, click away then click back.. it comes to the front - it shouldn't
+
 
 # notes
 
@@ -33,3 +46,7 @@ It was hard to work out how to get emblems back (they work nice in xfce but not 
 * https://superuser.com/questions/228261/how-to-properly-start-gvfs-without-gnome
 
 but that wans't quite right.. either. the np script failed in that situation.
+
+
+gpick
+

@@ -1,8 +1,18 @@
 urxvt.background: #fee0a6
 
+urxvt.color0: #fc516e
+urxvt.color1: #feb8b2
+urxvt.color3: #feb8b2
+
 urxvt.color10: #68a481
 urxvt.color14: #fc516e
 
-URxvt.perl-ext:         default,matcher
+
+URxvt.scrollColor: #feb8b2
+URxvt.scrollstyle: plain
+
+URxvt.perl-ext:         default,matcher,tabbed
 URxvt.urlLauncher:      /usr/bin/firefox
 URxvt.matcher.button:   1
+
+
